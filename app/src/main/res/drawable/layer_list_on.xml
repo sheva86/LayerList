@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <bitmap
+            android:gravity="center"
+            android:src="@drawable/background" />
+
+    </item>
+    <item
+        android:top="-200dp"
+        android:right="-50dp"
+        >
+        <bitmap
+            android:gravity="center"
+            android:src="@drawable/adroidicon" />
+    </item>
+    <item>
+        <bitmap
+            android:gravity="center"
+            android:src="@drawable/adroidicon" />
+    </item>
+    <item
+        android:top="200dp"
+        android:right="50dp">
+        <bitmap
+            android:gravity="center"
+            android:src="@drawable/adroidicon" />
+    </item>
+
+</layer-list>
